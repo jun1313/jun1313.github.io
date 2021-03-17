@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<h2>T현대백화점의 공간 재해석…‘더현대 서울’ 가보니</h2>
+
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <h2>더현대 서울</h2>
+    <p><img src="현대.jpg" alt="안보여" style="float:left">
+        갖가지 수목(樹木)들과 인공폭포. 전체 면적 중 절반이 
+        휴식 공간. 없어야 할 유리창도 있다. 공원에 온 듯한 착각을 불러일으키는 
+        현대백화점의 대형쇼핑몰 ‘더현대 서울’의 풍경이다. 개장 며칠 만에 100만명이 다녀간 곳. 
+        휴식 공간과 실내 조경도 발길 닿는 곳마다 존재한다. ‘자연친화형’이란 콘셉트가 적극적으로 활용됐다는 점을 알 수 있다. 
+        엘리베이터 근처에만 존재하던 휴식 공간은 출입문 근처와 매장 바로 앞에도 있고, 이동 경로 곳곳에 위치해 있다. 1층에 있는
+         12m 높이의 인공폭포 ‘워터폴가든’ 근처에도 소비자들이 쉴 수 있는 공간이 마련돼 쇼핑 피로도를 낮출 수 있다.
+        5층에는 실내 녹색공원 ‘사운즈 포레스트’가 있다. 천연 잔디에 30여 그루의 나무와 다양한 꽃들이 심어져 있으며, 스피커를 통해 새소리도 들린다.
+        시원시원한 전망도 눈에 띈다. 더현대의 층고는 아파트 6층 높이인 20m에 달하고, 소비자의 시야를 가릴 수 있는 요소를 최대한 제외했다. 천장은 
+        모두 유리로 제작됐으며, 6층부터 1층까지 햇빛이 들어와 탁 트인 개방감마저 느낄 수 있다. 모든 층에서 자연채광을 받을 수 있도록 건물 전체를 오픈하는 ‘보이드(Void)’ 건축 기법이 활용됐기 때문이다.</p>
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <h2>층별안내</h2>
+    <p>
+        3F About Fashion
+        <hr>
+        2F Modern MOOD
+        <hr>
+        1F Exclusove LABEL
+    </p>
+  </div>
+</div>
+
+</body>
+</html>
